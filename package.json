@@ -1,0 +1,27 @@
+{
+  "name": "yii2-vue",
+  "version": "1.0.0",
+  "description": "Yii 2 Vue Project Template",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "webpack --config webpack.config.js",
+    "prod": "webpack --config webpack.config.js --optimize-minimize --mode production"
+  },
+  "author": "Prawee Wongsa <prawee@hotmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1",
+    "vue-loader": "^15.9.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
